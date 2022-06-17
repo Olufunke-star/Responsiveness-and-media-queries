@@ -5,11 +5,11 @@ body { font-family: 'Poppins'; font-size: 16px ; background-color: hsl( 0, 100% 
 
 
 @media screen and (max-width:1440px) {  body { font-family: 'Poppins'; font-size: 16px ;
-     background-image: url('/images/desktop.png'); background-color: hsl( 0, 100% ,74%)     } 
+     background-image: url('images.html/desktop.png'); background-color: hsl( 0, 100% ,74%)     } 
                                                              }
 
 @media screen and (min-width:375px) { body { font-family: 'Poppins'; font-size : 16px ; 
-    background-image: url('/images/mobile.png'); background-color: hsl( 0, 100% ,74%)   } }
+    background-image: url('./images.html/mobile.png'); background-color: hsl( 0, 100% ,74%)   } }
 
 
 
