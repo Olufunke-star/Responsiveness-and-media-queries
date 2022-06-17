@@ -1,0 +1,85 @@
+body { font-family: 'Poppins'; font-size: 16px ; background-color: hsl( 0, 100% ,74%)
+
+    ;background-image: url('images/desktop.png'),url('/images/desktop.png'); }
+    
+
+
+@media screen and (max-width:1440px) {  body { font-family: 'Poppins'; font-size: 16px ;
+     background-image: url('/images/desktop.png'); background-color: hsl( 0, 100% ,74%)     } 
+                                                             }
+
+@media screen and (min-width:375px) { body { font-family: 'Poppins'; font-size : 16px ; 
+    background-image: url('/images/mobile.png'); background-color: hsl( 0, 100% ,74%)   } }
+
+
+
+        
+
+
+
+*{ margin: auto;
+padding: 0%;
+box-sizing: border-box;
+}
+main{ width: 80%; margin: auto; margin-left: 230px;
+    display: inline-block;
+    justify-content: center;
+     align-items: center;
+    height: 100vh;
+}
+.side-content {color: white;
+width: 80%;
+font-weight:800 ; font:300;
+}
+input[type="text"]{ width: 80%;
+padding: 12px 20px ;
+margin: 8px 15px;
+border: 1px solid #ccc;
+border-radius: 5px ;
+box-sizing: border-box; display: flex;
+cursor: pointer;
+}
+h1{ font-family:'poppins'; font-size: 40px;
+font-weight :1000px ;}
+p { font-family:'poppins'; font-size: 16px;
+    font-weight : 400;}
+
+    input[type="submit"] { width: 80%;
+    background-color:hsl( 248, 32% ,49%) ;
+color: white;
+padding: 14px 20px;
+margin: 8px 15px;
+border-color:hsl( 248, 32% ,49%); border: none;
+border-radius:5px ; cursor: pointer ; text-align: center; 
+}
+.form{ background-color: white ;
+    width : 80%;
+    margin: auto;
+    border-color:hsl( 248, 32% ,49%); height: 60vh;
+    border-radius:10px ;}
+
+    input[type="email"] { width: 80%;
+        padding :12px 20px ;
+    margin: 8px 15px ; border: 1px solid #ccc;
+    border-radius:5px ; box-sizing: border-box ; display:flex ; vertical-align: middle;
+    } 
+
+    input[type="password"] { width: 80%;
+        padding :12px 20px ;
+    margin: 8px 15px ; border: 1px solid #ccc;
+    border-radius:5px ; box-sizing: border-box ; display:flex; vertical-align: middle;
+    } 
+    .button{ width: 80%;
+        background-color:hsl( 125, 90% ,35%) ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 15px;
+    border-color:hsl( 125, 90% ,35%); border: 2px;
+    border-radius:10px ; cursor: pointer ; 
+    }
+
+.para{ text-align: center;}
+a { color:red ; text-decoration: none;}
+
+
+
